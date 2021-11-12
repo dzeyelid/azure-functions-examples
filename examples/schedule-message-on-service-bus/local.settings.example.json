@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "SERVICEBUS_CONNECTION_STRING_TO_RECEIVE": "<Service bus's connection string to receive>",
+    "SERVICEBUS_CONNECTION_STRING_TO_SEND": "<Service bus's connection string to send>",
+    "QUEUE_NAME": "<Service bus's queue name to send>"
+  }
+}
