@@ -34,6 +34,7 @@
 	"remoteUser": "node",
 	"features": {
 		"azure-cli": "latest",
-		"terraform": "latest"
+		"terraform": "latest",
+		"git": "latest"
 	}
 }

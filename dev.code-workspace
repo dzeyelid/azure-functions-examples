@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "Functionapp: schedule-message-on-service-bus",
+      "path": "samples/schedule-message-on-service-bus"
+    },
+    {
+      "name": "Functionapp: output-to-cosmosdb",
+      "path": "samples/output-to-cosmosdb"
+    }
+  ],
+  "settings": {
+    "debug.internalConsoleOptions": "neverOpen",
+  }
+}

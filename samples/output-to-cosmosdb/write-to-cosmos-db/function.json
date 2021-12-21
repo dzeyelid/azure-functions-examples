@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "authLevel": "Anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "outputToItems",
+      "type": "cosmosDB",
+      "databaseName": "projects",
+      "collectionName": "events",
+      "connectionStringSetting": "COSMOSDB_CONNECTION_STRING",
+      "direction": "out"
+    }
+  ],
+  "scriptFile": "../dist/write-to-cosmos-db/index.js"
+}
