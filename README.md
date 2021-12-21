@@ -2,4 +2,4 @@
 
 | ディレクトリ | 説明 |
 |----|---|
-| [`examples`](./examples) | 各種実装 |
+| [`samples`](./examples) | 各種実装 |
