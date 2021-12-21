@@ -1,0 +1,26 @@
+POST http://localhost:7071/api/write-to-cosmos-db
+Content-Type: application/json
+
+{
+  "user": {
+    "id": 1,
+    "name": "Alice"
+  },
+  "event": {
+    "message": "Hooray!!"
+  }
+}
+
+###
+
+POST http://localhost:7071/api/write-to-cosmos-db
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "Bob"
+  },
+  "event": {
+    "message": "This event should not be registered."
+  }
+}

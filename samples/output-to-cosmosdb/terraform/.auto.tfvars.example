@@ -1,0 +1,9 @@
+identifier = "joyful-year-of-end"
+cosmosdb_database = {
+  name = "projects"
+  autoscale_max_throughput = 4000
+}
+cosmosdb_container = {
+  name = "events"
+  partition_key_path = "/user/id"
+}

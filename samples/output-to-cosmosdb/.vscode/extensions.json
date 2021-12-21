@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "ms-vscode.azure-account",
+    "ms-azuretools.vscode-azurefunctions",
+    "ms-azuretools.vscode-azureterraform",
+    "humao.rest-client"
+  ]
+}
